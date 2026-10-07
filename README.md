@@ -95,7 +95,7 @@ Available scenario IDs:
 missingFromMyOrders
 existingAccountGuestOrder
 severalApplePayPurchases
-expiredMagicLink
+expiredOrderAccessLink
 wrongEmail
 fraudConcern
 returnsAndWarranty
@@ -120,7 +120,7 @@ The feedback is deterministic and client-side. It checks whether the response in
 
 - Identifying guest checkout
 - Explaining account separation
-- Using the correct magic link or confirmation email
+- Using the correct order access link or confirmation email
 - Asking for approved verification details
 - Protecting customer information
 - Routing fraud or access issues to Care
