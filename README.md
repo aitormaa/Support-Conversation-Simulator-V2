@@ -35,17 +35,17 @@ The simulator uses a shuffled question bag, so the eight scenarios appear in a d
 
 Host `index.html` on an HTTPS-accessible static host. GitHub Pages is suitable for this component.
 
-If the repository is `aitormaa/Support-Conversation-Simulator`, the expected GitHub Pages URL is:
+If the repository is `aitormaa/Support-Conversation-Simulator-V2`, the expected GitHub Pages URL is:
 
 ```text
-https://aitormaa.github.io/Support-Conversation-Simulator/
+https://aitormaa.github.io/Support-Conversation-Simulator-V2/
 ```
 
 In Rise 360, add a Multimedia Embed block and paste this iframe code:
 
 ```html
 <iframe
-  src="https://aitormaa.github.io/Support-Conversation-Simulator/"
+  src="https://aitormaa.github.io/Support-Conversation-Simulator-V2/"
   title="Guest Checkout Agent Practice"
   width="100%"
   height="1250"
@@ -61,7 +61,7 @@ Use the direct URL only if Rise is configured to embed the page as an iframe. If
 Learners see learner mode by default. To show the author controls, add this parameter to the URL:
 
 ```text
-https://aitormaa.github.io/Support-Conversation-Simulator/?mode=author
+https://aitormaa.github.io/Support-Conversation-Simulator-V2/?mode=author
 ```
 
 Author mode includes:
@@ -86,7 +86,7 @@ Example author commands:
 Each scenario can be opened directly with a URL parameter. This makes it possible to use one component in multiple Rise lessons:
 
 ```text
-https://aitormaa.github.io/Support-Conversation-Simulator/?scenario=severalApplePayPurchases
+https://aitormaa.github.io/Support-Conversation-Simulator-V2/?scenario=severalApplePayPurchases
 ```
 
 Available scenario IDs:
@@ -106,7 +106,7 @@ Example iframe for a specific lesson:
 
 ```html
 <iframe
-  src="https://aitormaa.github.io/Support-Conversation-Simulator/?scenario=wrongEmail"
+  src="https://aitormaa.github.io/Support-Conversation-Simulator-V2/?scenario=wrongEmail"
   title="Guest Checkout: Wrong Email Practice"
   width="100%"
   height="1250"
